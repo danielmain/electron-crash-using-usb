@@ -1,0 +1,18 @@
+{
+  "name": "electron-crash-using-usb",
+  "version": "0.0.1",
+  "description": "Example electron with usb",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Daniel Main <daniel.main.cernhoff@icloud.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "usb": "1.7.1"
+  },
+  "devDependencies": {
+    "electron": "13.1.7"
+  }
+}
