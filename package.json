@@ -13,6 +13,6 @@
     "usb": "1.7.1"
   },
   "devDependencies": {
-    "electron": "13.1.7"
+    "electron": "8.5.5"
   }
 }
