@@ -11,12 +11,10 @@ function createWindow () {
 }
 
 app.whenReady().then(() => {
+    // This line causes the crash
+    usb.on('attach', attachDetected);
     app.on('activate', function () {
         if (BrowserWindow.getAllWindows().length === 0) createWindow();
-
-        // This line causes the crash
-        usb.on('attach', attachDetected);
-
     })
 })
 
